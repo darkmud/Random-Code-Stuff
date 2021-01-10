@@ -30,6 +30,13 @@ while flag == 0:
                 print(value)
         print("\n")
 
+    if lastname == 'here':
+        print("\n" + "Present:")
+        for value in dict:
+            if dict[value] == 'PRESENT':
+                print(value)
+        print("\n")
+
     for key in dict:
         if lastname == key:
             dict[key] = 'PRESENT'
